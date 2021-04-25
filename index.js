@@ -12,8 +12,9 @@ function writeCards() {
 let names = ['Lisa', 'Kaitlin', 'Jan'];
 let event =  "surprise";
 function writeCards(names, event) {
+    let message = []
 for (let i=0; i<names.length; i++){
-  let message = []
+
   message.push = "Thank you, "+  name[i] + " for the wonderful " +  event + " gift!" ;
   //console.log("Thank you, "+  name[i] + " for the wonderful " +  event + " gift!" )
 } return message;
