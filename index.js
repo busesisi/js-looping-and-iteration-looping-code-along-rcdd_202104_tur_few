@@ -9,8 +9,8 @@ function writeCards() {
 // console.log("Thank you, " + $names[i] + " for the wonderful " + ${event} + " gift!");
 } */
 
-let names = ['Lisa', 'Kaitlin', 'Jan'];
-let event =  "surprise";
+const names = ['Lisa', 'Kaitlin', 'Jan'];
+const event =  "surprise";
 function writeCards(names, event) {
     let message = []
 for (let i=0; i<names.length; i++){
