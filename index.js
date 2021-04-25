@@ -13,12 +13,24 @@ let names = ['Lisa', 'Kaitlin', 'Jan'];
 let event =  "surprise";
 function writeCards(names, event) {
 for (let i=0; i<names.length; i++){
-  let message = "Thank you, "+  name[i] + " for the wonderful " +  event + " gift!" ;
+  let message = []
+  message.push = "Thank you, "+  name[i] + " for the wonderful " +  event + " gift!" ;
   //console.log("Thank you, "+  name[i] + " for the wonderful " +  event + " gift!" )
 } return message;
 }
 //writeCards(collection);
+/*
+const names = ['Lisa', 'Kaitlin', 'Jan'];
+const event= "surprise";
+function writeCards(names, event) {
+let paragraph = []
+for (let i = 0; i < names.length; i++) {
+paragraph.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+ }
+return paragraph;
+}
 
+*/
 /*
 const names = ['Lisa', 'Kaitlin', 'Jan'];
 const event= "surprise";
